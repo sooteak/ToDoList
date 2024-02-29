@@ -1,0 +1,45 @@
+任何页面都可以用到
+cancel·
+
+
+to do list
+1. Title
+2. Content
+3. 打钩 CheckBox
+4. edit
+5. delete
+6. 日期
+7. 上下折叠
+8. ID
+
+create
+1. title
+2. content
+3. save
+4. save在哪里
+
+edit
+1. title
+2. content
+3. mark as completed
+
+delete
+1.ask
+
+index
+1. search
+2. sort by
+3. hide checked list (把已经complete的 hide）
+
+
+function
+1. create 1
+2. edit
+3. delete
+4. up/down
+5. hide/show
+6.search
+7. sort by
+8.time
+9. mark
+

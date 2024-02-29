@@ -1,0 +1,119 @@
+.navbar{
+    display: flex;
+    margin: 20px 50px;
+    height: 34px;
+    flex-wrap: nowrap;
+}
+
+.n_search{
+    flex-grow: 80;
+    padding-right: 38px;
+}
+
+.searchInput {
+    /* top: 97px;
+    left: 50px; */
+    width: 100%;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 22px;
+    opacity: 1;
+    padding: 0 15px;
+    /* 添加内边距，使文字不紧贴边框 */
+    font-size: 14px;
+    /*设置字体大小*/
+}
+
+.searchInput::placeholder {
+    padding-left: 29px;
+    font: normal normal normal 16px/18px Arial;
+    /* 字体、字体大小、行高 */
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    /* 文本颜色 */
+    opacity: 1;
+}
+
+.n_sort{
+    flex-grow: 11;
+    padding-right: 8px;
+}
+
+.sort{
+    width: 100%;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 22px;
+    opacity: 1;
+    font-size: 14px;
+    padding-left: 29px;
+    font: normal normal normal 16px/18px Arial;
+    /* 字体、字体大小、行高 */
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    /* 文本颜色 */
+    opacity: 1;
+}
+
+.option{
+    padding-left: 29px;
+    font: normal normal normal 16px/18px Arial;
+    /* 字体、字体大小、行高 */
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    /* 文本颜色 */
+    opacity: 1;
+}
+
+.n_create{
+    flex-grow: 8;
+}
+
+.create{
+    height: 34px;
+    width: 100%;
+    background: #F79421;
+    border: 1px solid #DDDDDD;
+    border-radius: 22px;
+    font: normal normal bold 14px/16px Arial;
+    color: white;
+    /* 文字颜色为白色 */
+    font-weight: bold;
+    /* 文字加粗 */
+    cursor: pointer;
+    /* 鼠标悬停时显示手型 */
+    opacity: 1;
+}
+
+.n_showList{
+    text-align: right;
+    margin-left: auto;
+}
+
+.showList{
+    /* 按钮的样式 */
+    text-align: right;
+    margin-left: auto;
+    /* 将左边的margin设置为auto，使其靠右 */
+    margin-right: 50px;
+    /* 右侧margin为50px */
+    height: 17px;
+    font: normal normal normal 16px/18px Arial;
+    letter-spacing: 0px;
+    color: #101010;
+    text-decoration: underline;
+    cursor: pointer;
+    /* 鼠标悬停时显示手型 */
+    opacity: 1;
+    /* 将span元素转为块级元素 */
+}
+
+.showList:hover {
+    top: 97px;
+    left: 1223px;
+    width: 93px;
+    height: 34px;
+    opacity: 1;
+}
